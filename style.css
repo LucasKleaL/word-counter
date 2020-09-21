@@ -2,10 +2,96 @@
     background-color: aliceblue;
 }
 
+/* Navbar Style */
+.div-navbar{
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    position: absolute;
+}
+
+.botao-burguer-menu{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 0;
+    background-color: rgba(10,23,55,0);
+}
+
+#menucheck{
+    display: none; /* Tira a o marcador da checkbox */
+}
+
+input[type="checkbox"]:checked ~ .menu-lateral{
+    position: absolute;
+    left: -360;
+}
+
+.menu-icon{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu-icon:hover{
+    cursor: pointer;
+}
+
+.nav-menu-lateral{
+    width: 100%;
+    top: 60px;
+    position: relative;
+}
+
+.menu-lateral{
+    left: 10;
+    top: 100px;
+    border-radius: 10px;
+    width: 350px;
+    height: 535px;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    position: relative;
+    transition: all .2s linear;
+}
+
+.menu-lateral-desativado{
+    left: -350px;
+}
+
+.div-menu-lateral{
+    height: 80px;
+}
+
+.botao-menu{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 65px;
+}
+
+.botao-menu:hover{
+    cursor: pointer;
+}
+
+/* Area de contador */
 .botao-confirmar{
     width: 100px;
     height: 50px;
     color: white;
+    font-weight: bold;
+    font-size: 15px;
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     border: 0;
     border-radius: 10px;
@@ -18,18 +104,19 @@
 }
 
 .text-area{
-    width: 400px;
-    height: 100px;
+    width: 600px;
+    height: 200px;
 }
 
 .campo-contador{
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
     border: 1px;
     border-radius: 5px;
     border-color: black;
     border-style: solid;
     text-align: center;
+    font-size: 20px;
 }
 
 .h1{
@@ -53,6 +140,7 @@
     font-weight: bold;
     margin-top: 20px;
 }
+
 
 .div1{
     margin-top: 170px;
