@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>Word counter</title>
-        <link rel="shortcut icon" type="image/png" href="">
+        <link rel="shortcut icon" type="image/png" href="images/word-counter-icon.png" width="20px" heigth="20px">
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript" src="jquery-3.5.1.js"></script>
         <script type="text/javascript" src="script.js"></script>
@@ -12,10 +12,16 @@
 
         <div class="div-navbar">
 
+            <nav aria-label="navbarTopo">
+
             <input type="checkbox" id="menuCheck">
             <label id="menuIcon" for="menuCheck"><img src="images/horizontal-lines-icon.png" alt="menu" class="menu-icon"></label>
 
             <input class="link-site" id="linkSite" value="https://lucaskleal.github.io/word-counter/" readonly="readonly">
+
+            <a href="about.html" id="linkAbout"><button class="botao-navbar" id="botaoAbout">About</button></a>
+
+            <a href="index.html"><img src="images/word-counter-logo.png" alt="Word Counter" width="60px" height="60px" class="imagem-logo"></a>
 
         <div class="div1">
 
@@ -51,7 +57,7 @@
         </div>
 
         <div class="menu-lateral" id="menuLateral">
-            <nav class="nav-menu-lateral">
+            <nav class="nav-menu-lateral" id="navMenuLateral" aria-label="navMenuLateral">
 
                     
                     <div class="div-menu-lateral">
@@ -80,11 +86,6 @@
                     
             </nav>
         </div>
-
-        
-
-        
-        
 
     </body>
 </html>

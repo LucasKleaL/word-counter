@@ -20,6 +20,7 @@ $("#botaoIngles").click(function(){ //botao que muda o layout do site para ingle
     document.querySelector("#counterDescription").innerHTML = "Words number:"
     document.querySelector("#botaoShare").innerHTML = "Share"
     document.querySelector("#botaoCalculadora").innerHTML = "Calculator"
+    document.querySelector("#botaoAbout").innerHTML = "About"
 
 });
 
@@ -30,6 +31,7 @@ $("#botaoPortugues").click(function(){ //botao que muda o layout do site para po
     document.querySelector("#counterDescription").innerHTML = "Número de palavras:"
     document.querySelector("#botaoShare").innerHTML = "Compartilhar"
     document.querySelector("#botaoCalculadora").innerHTML = "Calculadora"
+    document.querySelector("#botaoAbout").innerHTML = "Sobre"
 
 });
 
@@ -40,6 +42,7 @@ $("#botaoEspanhol").click(function(){ //botao que muda o layout do site para esp
     document.querySelector("#counterDescription").innerHTML = "Número de palabras:"
     document.querySelector("#botaoShare").innerHTML = "Compartir"
     document.querySelector("#botaoCalculadora").innerHTML = "Calculadora"
+    document.querySelector("#botaoAbout").innerHTML = "Acerca"
 
 });
 
@@ -49,7 +52,7 @@ $("#botaoShare").click(function(){
     var texto = document.getElementById("linkSite");
     texto.select();
     document.execCommand("copy")
-    alert("Link copied")
+    alert("Link copied to clipboard")
 
 });
 
