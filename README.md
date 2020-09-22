@@ -3,10 +3,13 @@
  
  Website prints: 
  Home Page
- ![](images/template-examples/home%20page.png)
+ ![Home Page print](https://github.com/LucasKleaL/word-counter/blob/master/images/template-examples/homePage.PNG)
+ 
  Counter Working
- ![](images/template-examples/counter%20working.png)
+ ![Word Counter](https://github.com/LucasKleaL/word-counter/blob/master/images/template-examples/counterWorking.PNG)
+ 
  About Page
- ![](images/template-examples/about%20page.png)
+ ![About Page](https://github.com/LucasKleaL/word-counter/blob/master/images/template-examples/aboutPage.PNG)
+ 
  Portuguese About Page
- ![](images/template-examples/portuguese%20about page.png)
+ ![Portuguese About Page](https://github.com/LucasKleaL/word-counter/blob/master/images/template-examples/portugueseAboutPage.PNG)
