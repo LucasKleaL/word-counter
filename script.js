@@ -9,27 +9,47 @@ $("#botaoConfirmar").click(function(){
     
     var wordNumber = texto.length;
     $("#visorContador").val(wordNumber)
-    alert(texto)
+
 });
 
-$("#botaoMenuLateral").click(function(){
 
-    var menuAtivado = parseInt(1);
-    var menuDesativado = parseInt(0);
+$("#botaoIngles").click(function(){ //botao que muda o layout do site para ingles
 
-    if(menuAtivado === 1){
-        menuAtivado = 0;
-        menuDesativado = 1;
+    document.querySelector("#h1Title").innerHTML = "Word Counter"
+    document.querySelector("#textDescription").innerHTML = "Write or paste your text bellow:"
+    document.querySelector("#counterDescription").innerHTML = "Words number:"
+    document.querySelector("#botaoShare").innerHTML = "Share"
+    document.querySelector("#botaoCalculadora").innerHTML = "Calculator"
 
-        $("#menuLateral").removeClass("menu-lateral").addClass("menu-lateral-desativado")
+});
 
-    }
-    else if(menuDesativado === 1){
-        menuAtivado = 1;
-        menuDesativado = 0;
+$("#botaoPortugues").click(function(){ //botao que muda o layout do site para portugues
 
-        $("#menuLateral").removeClass("menu-lateral-desativado").addClass("menu-lateral-ativado")
-    }
+    document.querySelector("#h1Title").innerHTML = "Contador de Palavras"
+    document.querySelector("#textDescription").innerHTML = "Escreva ou cole seu texto abaixo:"
+    document.querySelector("#counterDescription").innerHTML = "Número de palavras:"
+    document.querySelector("#botaoShare").innerHTML = "Compartilhar"
+    document.querySelector("#botaoCalculadora").innerHTML = "Calculadora"
+
+});
+
+$("#botaoEspanhol").click(function(){ //botao que muda o layout do site para espanhol
+
+    document.querySelector("#h1Title").innerHTML = "Contador de palabras"
+    document.querySelector("#textDescription").innerHTML = "Escriba o pegue su texto a continuación:"
+    document.querySelector("#counterDescription").innerHTML = "Número de palabras:"
+    document.querySelector("#botaoShare").innerHTML = "Compartir"
+    document.querySelector("#botaoCalculadora").innerHTML = "Calculadora"
+
+});
+
+
+$("#botaoShare").click(function(){
+
+    var texto = document.getElementById("linkSite");
+    texto.select();
+    document.execCommand("copy")
+    alert("Link copied")
 
 });
 
