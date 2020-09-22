@@ -8,6 +8,13 @@ $("#botaoConfirmar").click(function(){
     texto = textArea.split(" ");
     
     var wordNumber = texto.length;
+
+    for(var i = 0; i < texto.length; i++){
+        if(texto[i] === ""){
+            wordNumber -= 1;
+        }
+    }
+
     $("#visorContador").val(wordNumber)
 
 });
