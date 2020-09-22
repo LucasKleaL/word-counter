@@ -3,10 +3,10 @@
  
  Website prints: 
  Home Page
- ![](images/template-examples/home page.png)
+ ![](images/template-examples/home%20page.png)
  Counter Working
- ![](images/template-examples/counter working.png)
+ ![](images/template-examples/counter%20working.png)
  About Page
- ![](images/template-examples/about page.png)
+ ![](images/template-examples/about%20page.png)
  Portuguese About Page
- ![](images/template-examples/portuguese about page.png)
+ ![](images/template-examples/portuguese%20about page.png)
